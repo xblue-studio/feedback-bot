@@ -2,39 +2,15 @@
 import { Router, Request, Response } from "express";
 import { CustomClient } from "../../../../types";
 import { PermissionFlagsBits } from "discord.js";
+import guildMiddleware from "../../../../methods/middleware/guildMiddleware";
 
 const createRouter = (client: CustomClient) => {
   const router = Router();
 
   router.get("/", async (req: Request, res: Response) => {
     try {
-      const guildId = req.query.guildId?.toString();
-
-      if (!guildId) {
-        return res.status(400).json({ error: "Missing guildId parameter" });
-      }
-
-      // Fetch the guild from the client cache
-      const guild = client.guilds.cache.get(guildId);
-
-      if (!guild) {
-        return res.status(404).json({ error: "Guild not found" });
-      }
-
-      // Fetch member from the guild
-      const member = guild.members.cache.get(client.user?.id ?? "");
-
-      if (!member) {
-        return res.status(404).json({ error: "Member not found in the guild" });
-      }
-
-      // Check if the member has Administrator permissions
-      if (!member.permissions.has(PermissionFlagsBits.Administrator)) {
-        return res.status(403).json({
-          error: "You do not have the required permissions for this guild",
-        });
-      }
-
+      const guild = guildMiddleware(req.query.guildId?.toString(), client, res);
+      if (!guild) return;
       res.json({
         guild: {
           name: guild.name,

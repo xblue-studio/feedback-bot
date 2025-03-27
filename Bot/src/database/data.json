@@ -57,14 +57,7 @@
     { "id": "credits_716532663506174013", "value": 804822 },
     { "id": "credits_718847838464770080", "value": 999995 },
     { "id": "title_635933198035058700", "value": "zampx.glitch.me" },
-    {
-      "id": "bans",
-      "value": {
-        "1153834735102070855": [
-          { "ids": ["718847838464770080"], "timeEnd": 1723515006579 }
-        ]
-      }
-    },
+    { "id": "bans", "value": { "1153834735102070855": [] } },
     { "id": "mutes", "value": { "1153834735102070855": [] } },
     {
       "id": "points",
@@ -132,6 +125,26 @@
             "joined": 0,
             "left": 0,
             "xp": {}
+          },
+          {
+            "id": "890fd489-e7a8-4c36-928b-3f4a02b12cf7",
+            "guild": "1262193975024943185",
+            "date": "2025-03-26",
+            "messages": 0,
+            "members": 3,
+            "joined": 0,
+            "left": 0,
+            "xp": {}
+          },
+          {
+            "id": "3f910b16-392c-49c1-a1bc-000a54fc16f7",
+            "guild": "1262193975024943185",
+            "date": "2025-03-27",
+            "messages": 0,
+            "members": 3,
+            "joined": 0,
+            "left": 0,
+            "xp": {}
           }
         ],
         "879062548551454740": [
@@ -151,6 +164,26 @@
             "date": "2024-07-29",
             "messages": 0,
             "members": 8,
+            "joined": 0,
+            "left": 0,
+            "xp": {}
+          },
+          {
+            "id": "2b2e9ddc-8aee-4728-8f1c-eb1ab6a7a3ed",
+            "guild": "879062548551454740",
+            "date": "2025-03-26",
+            "messages": 0,
+            "members": 10,
+            "joined": 0,
+            "left": 0,
+            "xp": {}
+          },
+          {
+            "id": "6f2d3be6-ffd6-4941-98c1-6584350cb6c5",
+            "guild": "879062548551454740",
+            "date": "2025-03-27",
+            "messages": 0,
+            "members": 10,
             "joined": 0,
             "left": 0,
             "xp": {}
@@ -176,8 +209,80 @@
             "joined": 0,
             "left": 0,
             "xp": {}
+          },
+          {
+            "id": "9396c1fd-dd39-407b-91cb-a181869d6130",
+            "guild": "1153834735102070855",
+            "date": "2025-03-26",
+            "messages": 1,
+            "members": 38,
+            "joined": 0,
+            "left": 0,
+            "xp": {}
+          },
+          {
+            "id": "55e91fb9-032e-48de-bc21-1cbf2338179b",
+            "guild": "1153834735102070855",
+            "date": "2025-03-27",
+            "messages": 0,
+            "members": 38,
+            "joined": 0,
+            "left": 0,
+            "xp": {}
           }
         ]
+      }
+    },
+    {
+      "id": "sessions",
+      "value": {
+        "137bb735f1a798cb342ab942f637b4d6": {
+          "token_type": "Bearer",
+          "access_token": "qEvghXyodDHXy9IU4ZfZ5VhUuKG1El",
+          "expires_in": 604800,
+          "refresh_token": "5pBmmtHgseuv4Dvkal2Wp9olREm0sO",
+          "scope": "guilds identify email",
+          "expires_at": 1743604518029
+        },
+        "ea07df165fbec0c63e16e54067b6c2b4": {
+          "token_type": "Bearer",
+          "access_token": "YVAKQ1iOdr4ds8MID66q30QxWNI75Z",
+          "expires_in": 604800,
+          "refresh_token": "oxrkuUAVAnNXqMipK4JNg57PH3ruoj",
+          "scope": "guilds identify email",
+          "expires_at": 1743675449693
+        }
+      }
+    },
+    {
+      "id": "credits",
+      "value": {
+        "635933198035058700": 2721,
+        "lastClaim": { "635933198035058700": "2025-03-26T15:12:50.126Z" }
+      }
+    },
+    {
+      "id": "creditsLogs",
+      "value": {
+        "635933198035058700": [
+          {
+            "Date": 1743001970464,
+            "Amount": 2721,
+            "Balance": 2721,
+            "User": "817541222251626497",
+            "Reason": "Daily claimed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1153834735102070855",
+      "value": {
+        "modules": { "auto_roles": "on" },
+        "autoRoles": {
+          "bot": ["1260128329626030090"],
+          "human": ["1260128329626030090"]
+        }
       }
     }
   ]
