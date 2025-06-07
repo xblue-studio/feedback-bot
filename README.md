@@ -1,6 +1,6 @@
-# <strong> [![شرح طريقة تشغيل البوت كاملا](https://img.youtube.com/vi/JxPRDzZspCM/0.jpg)](https://www.youtube.com/watch?v=JxPRDzZspCM) <-> شرح طريقة تشغيل البوت كاملا </strong>
+# <strong> [![شرح طريقة تشغيل البوت كاملا]([https://img.youtube.com/vi/JxPRDzZspCM/0.jpg](https://media.discordapp.net/attachments/1275570135087972456/1381037170214830201/maxresdefault.jpg?ex=68460e97&is=6844bd17&hm=1cc279b3df1a59d689d0849108f74cf6bce5a148ebbe16507882be7cf2d65de5&=&format=webp&width=745&height=419))] <-> شرح طريقة تشغيل البوت كاملا </strong>
 
-![Picsart_24-07-18_04-46-46-002](https://github.com/user-attachments/assets/a07b551a-8694-4e79-9d18-93b773b756a4)
+![Picsart_24-07-18_04-46-46-002]([https://github.com/user-attachments/assets/a07b551a-8694-4e79-9d18-93b773b756a4](https://github.com/xblue-studio))
 
 # أوامر التشغيل وشرحها
 
